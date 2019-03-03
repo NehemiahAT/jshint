@@ -1,4 +1,6 @@
-"use strict";
+(function () {
+  
+  "use strict";
 
 var browserify = require("browserify");
 var path       = require("path");
@@ -46,3 +48,5 @@ module.exports = function(target, done) {
     done(null, version, wrapped.join("\n"));
   });
 };
+  
+}());
