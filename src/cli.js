@@ -1,4 +1,6 @@
-"use strict";
+(function () {
+  
+  "use strict";
 
 var _                 = require("lodash");
 var fs                = require("fs");
@@ -769,3 +771,5 @@ var exports = {
 };
 
 module.exports = exports;
+  
+}());
