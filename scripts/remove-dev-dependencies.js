@@ -1,4 +1,6 @@
-"use strict"
+(function () {
+  
+  "use strict";
 /**
  * Some of this project's development dependencies cannot be successfully
  * installed in legacy versions of Node.js. This module removes development
@@ -35,3 +37,5 @@ fs.writeFile(manifestLocation, newContents, function(err) {
   console.log("Successfully removed packages. New contents:");
   console.log(newContents.replace(/(^|\n)/g, "$1> "));
 });
+  
+}());
