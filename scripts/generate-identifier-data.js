@@ -1,7 +1,5 @@
 // Based on https://gist.github.com/mathiasbynens/6334847 by @mathias
 
-
-
 (function () { 
   
   "use strict";
